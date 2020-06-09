@@ -35,7 +35,7 @@ module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 
     const { name, colour } = req.body.input;
-    const pretty3 = name.trim().replace(" ","-").concat("-",colour).toUpperCase()
+    const pretty3 = name.trim().replace(" ","+").concat("-",colour).toUpperCase()
     const { data, errors } = await execute({ name, colour, pretty3 });
 
     if (errors) {
