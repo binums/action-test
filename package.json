@@ -1,0 +1,18 @@
+{
+  "name": "action-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.16.4",
+    "node-fetch": "2.6.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "1.18.4"
+  }
+}
